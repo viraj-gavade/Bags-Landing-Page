@@ -265,5 +265,40 @@
 
 }
 
+/* .Section-4 style */
+.section-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+}
+.section-4,h4{
+    font-size: 25px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* color: #4c4d4e; */
+}
+.section-4,p{
+    font-size: 14px;
+    line-height: 15px;
+    width: 50ch;
+    /* color: #777777; */
+}
 
+.bag-image1{
+    height: 485px;
+    width:385px;
+}
+.bag-image2{
+    height: 485px;
+    width: 385px;;
+}
+.content-prof{
+    padding-top: 8rem;
+    padding-left: 10rem;
+    padding-right: 8rem;
+    background-color: #041a06c7;
+    height: 485px;
+    color: white;
+}
 
