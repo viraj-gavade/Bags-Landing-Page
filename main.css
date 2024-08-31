@@ -347,7 +347,7 @@ section-5 Styles */
 
 .collection-image{
     height: 300px;
-    width: 300px;
+    width: 387px;
     padding: 0;
     margin: 0;
 }
@@ -357,15 +357,22 @@ section-5 Styles */
     gap: 0.5rem;
     padding: 0;
     margin: 2.5rem;
+ 
+}
+.collection-bags{
+    border: 2px solid black;
+    height: 400px;
+    width: 300px;
+    margin-right: 0.5re;
 }
 .collection-title{
     font-size: 20px;
-    padding: 0;
+    padding: 0.5rem;
     margin: 0;
 }
 .collection-price{
     font-size: 15px;
-    padding: 0;
+    padding: 0.5rem;
     margin: 0;
 }
 .sec5-header{
@@ -388,11 +395,11 @@ section-5 Styles */
         margin: 0.5rem;
     }
     .section-5{
-        margin: 2.5rem;
+        margin: 0rem;
     }
     .collection-image{
         height: 300px;
-        width: 300px;
+        width: 370px;
         padding: 0;
         margin: 0;
     }
