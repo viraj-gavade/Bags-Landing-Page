@@ -377,3 +377,17 @@ section-5 Styles */
     padding-left: 1.5rem;
     padding-bottom: 2.5rem;
 }
+
+@media (max-width: 768px){
+    .collection-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+        padding: 0;
+        margin: 0.5rem;
+    }
+    .section-5{
+        margin: 2.5rem;
+    }
+}
