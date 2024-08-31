@@ -391,3 +391,24 @@ section-5 Styles */
         margin: 2.5rem;
     }
 }
+
+/* section-6 style */
+
+.section-6{
+    background-image: url('./utils/pexels-sevenstormphotography-575435.jpg');
+    background-position-y: 10px;
+    background-size: cover;
+    display: block;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1380px;
+    margin-bottom: 10rem;
+    color: whitesmoke;
+    text-shadow: 3px 3px  black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sec6-header{
+  padding-top: 10rem;
+}
+
