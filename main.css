@@ -347,7 +347,7 @@ section-5 Styles */
 
 .collection-image{
     height: 300px;
-    width: 387px;
+    width: 300px;
     padding: 0;
     margin: 0;
 }
@@ -357,22 +357,15 @@ section-5 Styles */
     gap: 0.5rem;
     padding: 0;
     margin: 2.5rem;
- 
-}
-.collection-bags{
-    border: 2px solid black;
-    height: 400px;
-    width: 300px;
-    margin-right: 0.5re;
 }
 .collection-title{
     font-size: 20px;
-    padding: 0.5rem;
+    padding: 0;
     margin: 0;
 }
 .collection-price{
     font-size: 15px;
-    padding: 0.5rem;
+    padding: 0;
     margin: 0;
 }
 .sec5-header{
@@ -395,7 +388,13 @@ section-5 Styles */
         margin: 0.5rem;
     }
     .section-5{
-        margin: 0rem;
+        margin: 2.5rem;
+    }
+    .collection-image{
+        height: 300px;
+        width: 300px;
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -419,3 +418,20 @@ section-5 Styles */
   padding-top: 10rem;
 }
 
+@media (max-width: 768px){
+    .section-6{
+        background-image: url('./utils/pexels-sevenstormphotography-575435.jpg');
+        background-position-y: 10px;
+        background-size: cover;
+        display: block;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 385px;
+        margin-bottom: 10rem;
+        color: whitesmoke;
+        text-shadow: 3px 3px  black;
+        text-align: center;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
