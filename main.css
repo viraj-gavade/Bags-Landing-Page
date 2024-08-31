@@ -390,6 +390,12 @@ section-5 Styles */
     .section-5{
         margin: 2.5rem;
     }
+    .collection-image{
+        height: 300px;
+        width: 300px;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 /* section-6 style */
@@ -412,3 +418,20 @@ section-5 Styles */
   padding-top: 10rem;
 }
 
+@media (max-width: 768px){
+    .section-6{
+        background-image: url('./utils/pexels-sevenstormphotography-575435.jpg');
+        background-position-y: 10px;
+        background-size: cover;
+        display: block;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 385px;
+        margin-bottom: 10rem;
+        color: whitesmoke;
+        text-shadow: 3px 3px  black;
+        text-align: center;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
