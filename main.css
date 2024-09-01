@@ -445,7 +445,6 @@ section-7 styles */
     justify-content: space-around;
     align-items: center;
     margin: 0.5rem;
-    box-shadow: 3px 3px black;
     border-radius: 5px;
 }
 .support-container , h4{
@@ -461,7 +460,25 @@ section-7 styles */
     line-height: 20px;
     color: #4c4d4e;
 }
-.support-item{
-    /* display: flex; */
-    
+
+@media (max-width: 768px){
+    .support-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .support-container , h4{
+        color: #4c4d4e;
+        text-align: center;
+        font-size: 32px;
+    }
+    .support-image{
+        height: 150px;
+        width: 150px;
+    }
+    .support-content{
+        font-size: 18px;
+        width: 30ch;
+        line-height: 20px;
+        color: #4c4d4e;
+    }
 }
