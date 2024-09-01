@@ -408,7 +408,7 @@ section-5 Styles */
     background-repeat: no-repeat;
     height: 500px;
     width: 1380px;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
     color: whitesmoke;
     text-shadow: 3px 3px  black;
     text-align: center;
@@ -434,4 +434,34 @@ section-5 Styles */
         align-items: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
+}
+
+/* 
+section-7 styles */
+
+.support-container{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.5rem;
+    box-shadow: 3px 3px black;
+    border-radius: 5px;
+}
+.support-container , h4{
+    color: #4c4d4e;
+}
+.support-image{
+    height: 100px;
+    width: 100px;
+}
+.support-content{
+    font-size: 15px;
+    width: 30ch;
+    line-height: 20px;
+    color: #4c4d4e;
+}
+.support-item{
+    /* display: flex; */
+    
 }
