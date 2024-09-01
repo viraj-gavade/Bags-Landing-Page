@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.voyage-image{
+    height: 600px;
+    width: 700px;
+}
+
+.about-wrapper{
+    display: flex;
+    color: #4c4d4e;
+}
+.voyage-container{
+    padding: 6rem 2rem ;
+    
+}
+
+.shop-btn{
+    padding: 0.5rem;
+    margin-top: 2rem;
+    width: 12rem;
+    border-radius: 5px 5px;
+    font-size: 22px;
+    background-color: #ff0000
+}
+.voyage-content{
+    width: 50ch;
+    margin-right: 14.3rem;
+}
+.main-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.voyage-content2{
+    padding-left: 3rem;
+    line-height: 20px;
+    margin-top: 2rem;
+}
+.our-history{
+    padding-left: 3rem;
+}
