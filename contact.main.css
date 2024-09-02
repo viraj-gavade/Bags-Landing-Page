@@ -132,4 +132,48 @@ font-size: 18px;
 }
 .main-wrapper{
     display: flex;
+
+}
+.contact-info{
+    display: flex;
+    width: 50%;
+    gap: 2rem;
+    background-color: #fff;
+}
+.contact-element{
+   
+}
+@media (max-width: 768px) {
+ .main-wrapper{
+    display: flex;
+    flex-direction: column  ;
+ }   
+ .contact-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+}
+.reach-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center     ;
+    align-items: center;
+}
+.explore-content{
+    width: 30ch;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 2rem;
+    }
+    .explore-heading{
+        font-size: 40px;
+        width: 18ch;
+        text-align: center;
+        padding-left: 1rem;
+    }
+    .container{
+        width: 320px;
+    }
+    
 }
