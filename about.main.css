@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .voyage-image{
     height: 600px;
     width: 700px;
@@ -56,18 +57,18 @@ our-voyage{
     }
 
     .voyage-content2{
-        font-size: 30px;
-        padding-left: 3rem;
+        font-size: 15px;
         line-height: 30px;
         margin-top: 2rem;
         width: 40ch;
     }
     .voyage-content{
-        padding-left: 3rem;
-        font-size: 30px;
+        
+        font-size: 15px;
         line-height: 30px;
-        margin-top: 2rem;
-        width: 40ch;
+        padding: 2rem;
+        margin: 0;
+        width: 45ch;
     }
     .our-history{
         font-size: 42px;
@@ -76,8 +77,85 @@ our-voyage{
         font-size: 60px;
     }
     .voyage-image{
-        height: 600px;
-        width: 600px;
+        height: 300px;
+        width: 300px;
         margin: 3.5rem;
+    }
+}
+/* Navbar Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: #333;
+        flex-direction: column;
+        align-items: center;
+        transition: left 0.3s ease;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+    }
+
+    .hamburger {
+        display: flex;
     }
 }
