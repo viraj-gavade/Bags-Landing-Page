@@ -309,9 +309,12 @@
     width: 375px;;
 }
 .content-prof{
-   padding-left: 8.6rem;
-   padding-top: 10rem;
-   padding-right: 8.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
     background-color: #041a06c7;
     height: 485px;
     color: white;
@@ -364,8 +367,8 @@ section-5 Styles */
 }
 .collection-container{
     display: flex;
-    justify-content: space-around;
-    gap: 0.5rem;
+    justify-content: space-evenly;
+    gap: 1rem;
     padding: 0;
     margin: 2.5rem;
     width: 300px;
@@ -544,6 +547,7 @@ section-7 styles */
 .support-container{
     display: flex;
     padding: 1rem;
+    gap: 2rem;
     justify-content:center;
     align-items: center;
     margin: 0.5rem;
