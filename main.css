@@ -11,6 +11,8 @@
     align-items: center;
     background-color: #333;
     padding: 10px 20px;
+    margin-left: 0rem;
+        margin-right: -0.9rem;
 }
 
 .logo {
@@ -150,8 +152,11 @@
         background-color: #74d2e7;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        padding-left: 1.5rem;
+        margin-left: 0rem;
+        margin-right: -0.9rem;
+    }
+    .image{
+        padding-left: 2rem;
     }
     .section-1-image{
         width: 300px;
@@ -165,6 +170,7 @@
         line-height: 44px;
         color: #030303c6;
         letter-spacing: normal;
+        padding-left: 1.5rem;
     }
     .content , span{
         color: white
@@ -178,7 +184,8 @@
         width: 10rem;
         border-radius: 5px 5px;
         font-size: 18px;
-        background-color: #ff0000
+        background-color: #ff0000;
+        margin-left: 1.5rem;
     }
     .container{
         display: flex;
