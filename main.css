@@ -146,6 +146,7 @@
     padding: 0.5rem;
     margin-top: 2rem;
     width: 10rem;
+   
     border-radius: 5px 5px;
     font-size: 18px;
     background-color: #ff0000
@@ -506,7 +507,11 @@ section-5 Styles */
     margin-bottom: 2rem;
     color: whitesmoke;
     text-shadow: 3px 3px  black;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .sec6-header{
@@ -525,6 +530,8 @@ section-5 Styles */
         margin-bottom: 10rem;
         color: whitesmoke;
         text-shadow: 3px 3px  black;
+        display: flex;
+        flex-direction: column;
         text-align: center;
         align-items: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -537,13 +544,13 @@ section-7 styles */
 .support-container{
     display: flex;
     padding: 1rem;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
     margin: 0.5rem;
     border-radius: 5px;
 }
 .support-container , h4{
-    color: #4c4d4e;
+    color: white;
 }
 .support-image{
     height: 100px;
@@ -556,10 +563,14 @@ section-7 styles */
     color: #4c4d4e;
 }
 .support-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
              0 0  0 2px rgb(190, 190, 190),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 10px;
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -571,7 +582,7 @@ section-7 styles */
         column-gap: 2rem;
     }
     .support-container , h4{
-        color: #4c4d4e;
+        color: white;
         text-align: center;
         font-size: 32px;
     }
@@ -652,7 +663,7 @@ body {
 }
 
 .footer-column ul li a:hover {
-    color: #ff6347;
+    color: black;
 }
 
 .social-icons a {
@@ -689,7 +700,7 @@ body {
 }
 
 .newsletter-form button:hover {
-    background-color: #e55339;
+    background-color: black;
 }
 
 .footer-bottom {
@@ -718,3 +729,40 @@ body {
         border-radius: 5px;
     }
 }
+
+.button {
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 1px 3px 0px rgb(139, 113, 255);
+    transition-duration: .3s;
+  }
+  
+  .cartIcon {
+    width: 14px;
+    height: fit-content;
+  }
+  
+  .cartIcon path {
+    fill: white;
+  }
+  
+  .button:active {
+    transform: translate(2px ,0px);
+    box-shadow: 0px 1px 0px rgb(139, 113, 255);
+    padding-bottom: 1px;
+  }
+  .button:hover{
+    color: black;
+    background-color: white;
+  }
+  
