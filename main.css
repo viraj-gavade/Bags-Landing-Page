@@ -328,17 +328,17 @@
     }
     .bag-image1{
         height: 485px;
-        width:350px;
+        width:420px;
     }
     .bag-image2{
         height: 485px;
-        width: 350px;;
+        width: 420px;;
     }
     .content-prof{
         padding: 3rem;
         background-color: #041a06c7;
         height: 485px;
-        width: 350px;
+        width: 420px;
         color: white;
         text-align: center;
         
@@ -529,7 +529,7 @@ section-5 Styles */
         display: block;
         background-repeat: no-repeat;
         height: 500px;
-        width: 385px;
+        width: 405px;
         margin-bottom: 10rem;
         color: whitesmoke;
         text-shadow: 3px 3px  black;
