@@ -796,13 +796,14 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
+    width: 405px;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -815,6 +816,7 @@ footer {
 .footer-section h2 {
     font-size: 18px;
     margin-bottom: 10px;
+    width: 360px;
 }
 
 .footer-section p,
@@ -845,7 +847,8 @@ footer {
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
-        text-align: center;
+        padding: 1rem;
+        text-wrap: wrap;
     }
 
     .footer-section {
