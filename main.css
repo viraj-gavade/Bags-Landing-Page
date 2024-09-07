@@ -1,4 +1,6 @@
 /* Navbar Styles */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -458,6 +460,7 @@ section-5 Styles */
 .sec5-header{
     font-size: 42px;
    padding-left:1.5rem ;
+   color: black;
 
 
 }
@@ -466,6 +469,7 @@ section-5 Styles */
     padding-left: 1.5rem;
     padding-bottom: 2.5rem;
     width: 30ch;
+    color: black;
 }
 
 @media (max-width: 768px){
