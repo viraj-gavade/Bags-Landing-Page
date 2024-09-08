@@ -12,9 +12,9 @@
             <div class="logo">Baggage Store</div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Products</a></li>
-                <li><a href="about.index.html">About</a></li>
-                <li><a href="contact.index.html">Contact</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="hamburger">
                 <div class="line"></div>
@@ -23,69 +23,33 @@
             </div>
         </nav>
     </header>
-    <div class="header">
-        <h1>Contact Us!</h1>
-    </div>
-    <div class="main-wrapper">
-        <div class="reach-us">
-            <div class="explore">
-                <h4 class="explore-heading">Reach out to us to
-                    explore the world of bags</h4>
-                <p class="explore-content">Habitant morbi tristique senectus et commodo nulla facilisi lobortis mattis aliquam faucibus purus in massa tempor.  </p>
+    <div class="container">
+        <div class="contact-wrapper animate-fade-in">
+            <div class="contact-header">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you. Get in touch with us for any inquiries or feedback.</p>
             </div>
-            <div class="contact-info">
-                <div class="contact-element">
-                    <img src="./utils/mail-open-minus-svgrepo-com.png" alt="" height="100px" width="100px">
-                    <h3>Mail Us</h3>
-                    <h4>www.exaple@gmail.com</h4>
-                </div>
-                    <div class="contact-element">
-                        <img src="./utils/location-pin-alt-1-svgrepo-com.png" alt="" height="100px" width="100px">
-                        <h3>Address</h3>
-                        <h4>www.exaple.com</h4>
-                        <p>No: 58 A, East Madison Street, Baltimore, MD, USA 4508</p>
-                    </div> <div class="contact-element">
-                        <img src="" alt="">
-                        <h4></h4></div>
-                        <div class="contact-element">
-                            <img src="./utils/phone-calling-svgrepo-com.png" alt="" height="100px" width="100px">
-                            <h3>Contact Us</h3>
-                            <h4>www.exaple.com</h4>
-                            <p>000 - 123 - 456789</p>
-                        </div>
-                    <div class="contact-element">
-                        <img src="./utils/globe-svgrepo-com.png" alt="" height="100px" width="100px">
-                        <h3>Our Website</h3>
-                        <h4>www.exaple.com</h4>
-                    </div>
-            </div>
-        </div>
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form action="#" method="post">
+            <form class="contact-form">
                 <div class="form-group">
-                    <label for="firstname">First Name*</label>
-                    <input type="text" id="firstname" name="firstname" required>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
                 </div>
                 <div class="form-group">
-                    <label for="lastname">Last Name</label>
-                    <input type="text" id="lastname" name="lastname">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email*</label>
+                    <label for="email">Email</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
-                    <label for="phonenumber">Phone Number*</label>
-                    <input type="tel" id="phonenumber" name="phonenumber" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
                 </div>
-                <div class="form-group">
-                    <label for="message">Message*</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button type="submit">Submit</button>
+                <button type="submit" class="submit-btn">Send Message</button>
             </form>
-        </div>
+            <div class="contact-info">
+                <h2>Other Ways to Reach Us</h2>
+                <p>Email: contact@fashionbrand.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+                <p>Address: 123 Fashion Avenue, Style City, FC 12345</p>
+            </div>
         </div>
     </div>
     <footer>
@@ -113,7 +77,7 @@
         <div class="footer-bottom">
             &copy; 2024 Fashion Bags | Made by <a href="https://www.instagram.com/_viraj.js/">Viraj-Gavade</a>
         </div>
-      </footer>
+    </footer>
+    <script src="./index.js"></script>
 </body>
-<script src="./index.js"></script>
 </html>
