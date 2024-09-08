@@ -302,7 +302,7 @@
 }
 .section-4,p{
     font-size: 14px;
-    line-height: 15px;
+    line-height: 20px;
     width: 50ch;
     /* color: #777777; */
 }
@@ -353,7 +353,7 @@
     }
     .sec4-con{
         font-size: 14px;
-        line-height: 15px;
+        line-height: 25px;
         text-wrap: wrap;
         width: 35ch;
         display: flex;
