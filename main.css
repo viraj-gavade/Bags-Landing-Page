@@ -235,10 +235,11 @@
         flex-direction: column;
         justify-content: center;
         margin-top: 2rem;
-        padding-left: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .bag-image{
-        width: 405px;
+        width: 400px;
         height: 300px;
     }
     .Travels{
@@ -331,20 +332,21 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-left: 0.5rem;
     }
     .bag-image1{
         height: 485px;
-        width:420px;
+        width:440px;
     }
     .bag-image2{
         height: 485px;
-        width: 420px;;
+        width: 440px;;
     }
     .content-prof{
         padding: 3rem;
         background-color: #041a06c7;
         height: 485px;
-        width: 420px;
+        width: 440px;
         color: white;
         text-align: center;
         
